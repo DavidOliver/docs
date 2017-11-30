@@ -67,7 +67,7 @@ You can add a public SSH key for Lish in the Linode Manager to automatically con
 {{< /note >}}
 
 5.  At the Lish command prompt, type a Linode's name from the list. For example, typing `linode241706` will connect you to the screen console session for that Linode.
-6.  Log in to the Linode with your username and password.
+6.  Log in to the Linode with your Linode's Unix account username and password.
 
 After you log in, you'll have console access to your Linode. You'll be able to restart services like `sshd`, edit firewall settings, and make other changes to your Linode. To exit your Linode's console, press **CTRL+A** then **D** to return to the host machine, and then press **CTRL+D** to return to the Lish menu. If you'd like to see the list of your Linodes again, type `list` from the gateway.
 
